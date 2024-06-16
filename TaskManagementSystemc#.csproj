@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>TaskManagementSystemc_</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="src\TaskManagementSystem.Tests\Services\" />
+    <Folder Include="src\TaskManagementSystem.Tests\Repositories\" />
+    <Folder Include="src\TaskManagementSystem\Models\" />
+    <Folder Include="src\TaskManagementSystem\Services\" />
+    <Folder Include="src\TaskManagementSystem\Repositories\" />
+  </ItemGroup>
+
+</Project>
